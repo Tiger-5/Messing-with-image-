@@ -1,0 +1,50 @@
+@font-face {
+    font-family: myfont;
+    src: url(Satoshi_Complete/Fonts/OTF/Satoshi-Regular.otf);
+    font-weight: normal;
+}
+
+body{
+    background-image: url(c65b384298876a309ceaef00f8f74688.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto;
+    background-color: black;
+    height: 400px; 
+    margin-top: 50px;
+    
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-family: myfont;
+    
+
+}
+
+li{
+    display: inline;
+
+}
+
+ul{
+    display: flex;
+    gap: 150px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 17px;
+}
+
+.hhje{
+    color: white;
+    font-family: myfont;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 170px;
+}
